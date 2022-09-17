@@ -7,3 +7,5 @@
 ## Task6 - Django
 
 First work with Django by tutorial [Django Girls](https://tutorial.djangogirls.org/)
+
+## Task8 - Django

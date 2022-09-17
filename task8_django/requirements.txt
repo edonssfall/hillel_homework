@@ -1,0 +1,8 @@
+Django==4.0.6
+psycopg2-binary==2.9.3
+django-user-agents==0.4.0
+user-agents==2.2.0
+ua-parser==0.15.0
+PyYAML==5.4.1
+art==5.7
+

@@ -1,0 +1,10 @@
+{% extends "about/base.html" %}
+
+    {% block title%}
+        Whoami
+    {% endblock %}
+    {% block body %}
+        User-Agent :{{user_agent}}<br />
+        Your IP: {{ip}}<br />
+        Server Time: {{now_time}}
+    {% endblock %}
