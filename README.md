@@ -11,3 +11,5 @@ First work with Django by tutorial [Django Girls](https://tutorial.djangogirls.o
 ## Task8 - Django
 
 ## Task11 - Asyncio Threads Multiprocessing
+
+## Task12 - Hash, Algorithms 
