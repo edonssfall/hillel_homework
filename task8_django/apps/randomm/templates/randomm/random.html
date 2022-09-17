@@ -1,0 +1,17 @@
+{% extends "about/base.html" %}
+
+    {% block title%}
+        Random
+    {% endblock %}
+    {% block body %}
+        <form method="get">
+            <center>
+                {{output_randoms}}<br />
+                {% csrf_token %}
+                Length:<input name="length"><br />
+                Digits:<input type="checkbox" value="True" name="digits"><br />
+                Specials:<input type="checkbox" value="True" name="specials"><br />
+                <input type="submit">
+            </center>
+        </form>
+    {% endblock %}

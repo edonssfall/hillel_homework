@@ -1,0 +1,17 @@
+{% extends "about/base.html" %}
+
+    {% block title%}
+        Random
+    {% endblock %}
+    {% block body %}
+        <form method="get">
+            <center>
+                <h3>Length must be from 0 to 100!!!</h3><br />
+                <h3>You enter: {{length}}</h3><br />
+                {% csrf_token %}
+                Length:<input name="length"><br />
+                Digits:<input type="checkbox" name="digits"><br />
+                Specials:<input type="checkbox" name="specials"><br />
+            </center>
+        </form>
+    {% endblock %}
