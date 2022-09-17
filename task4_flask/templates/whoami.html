@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+    {% block title%}
+        Whoami
+    {% endblock %}
+    {% block body %}
+    <span class="nubex">
+        <h3>User-Agent is:{{user_agent}}</h3>
+        <br />
+        <h3>Your name:{{remote_name}}</h3> 
+        <h3>Your IP:{{remote_ip}}</h3>
+        <br />
+        <h3>Server time is:</h3>
+        <h3>{{time_server}}</h3>
+    </span>
+    {% endblock %}

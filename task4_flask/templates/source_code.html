@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+    {% block title%}
+        Source code
+    {% endblock %}
+    {% block body %}
+        {% for lines in text%}
+        <span class="source">
+            <h2><p>{{ lines }}</p></h2>
+        </span>
+        {% endfor %}
+    {% endblock %}

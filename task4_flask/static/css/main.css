@@ -1,0 +1,6 @@
+.nav-link , .navbar-brand{color: #1247f5; cursor: pointer;}
+.nav-link{margin-right: 1em !important;}
+.nav-link:hover{background: #1247f5; color: #ffffff; }
+.navbar-toggler{background:rgb(141, 38, 38) !important;}
+.nubex {color:#0ea9cf; font-size: 300%;}
+.source {color:rgb(44, 177, 133)}

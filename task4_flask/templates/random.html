@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+    {% block title%}
+        Random
+    {% endblock %}
+    {% block body %}
+        <div class="alert alert-primary" role="alert">
+            <center><h3>{{ output_random }}</h3></center>
+        </div>
+        <div class="container mt-5">
+            <form method="get">
+                <input type="text" name="length" id="length" class="form-control" placeholder="Length"><br />
+                <div class="form-check">
+                    <input class="form-check-input" name="specials" type="checkbox" value="1" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">Specials</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" name="digits" type="checkbox" value="1" id="flexCheckChecked">
+                    <label class="form-check-label" for="flexCheckChecked">Digits</label>
+                </div>
+                <input type="submit" class="btn btn-success" value="Send">
+            </form>
+        </div>                
+    {% endblock %}
